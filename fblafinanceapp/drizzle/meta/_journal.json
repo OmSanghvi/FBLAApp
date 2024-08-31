@@ -15,6 +15,20 @@
       "when": 1724457201620,
       "tag": "0001_fluffy_morgan_stark",
       "breakpoints": true
+    },
+    {
+      "idx": 2,
+      "version": "5",
+      "when": 1724696066090,
+      "tag": "0002_bizarre_catseye",
+      "breakpoints": true
+    },
+    {
+      "idx": 3,
+      "version": "5",
+      "when": 1724715476113,
+      "tag": "0003_stiff_bishop",
+      "breakpoints": true
     }
   ]
 }

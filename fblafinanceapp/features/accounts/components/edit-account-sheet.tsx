@@ -17,7 +17,7 @@ type FormValues = z.input<typeof formSchema>;
 
 export const EditAccountSheet = ()=>{
     const{isOpen, onClose, id} = useOpenAccount();
-    const [ConfirmDialog, confirm] = useConfirm("Are you sure?", "You are about to delete this transaction.")
+    const [ConfirmDialog, confirm] = useConfirm("Are you sure?", "You are about to delete this account.")
     const editMutation = useEditAccount(id);
     const deleteMutation = useDeleteAccount(id);
     const isPending = editMutation.isPending || deleteMutation.isPending;
